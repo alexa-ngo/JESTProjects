@@ -10,3 +10,16 @@ The calculator project contains the following functions along with its respectiv
 - divide
 
 ![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/81b43f62-0792-4606-b964-db07ca0b7e73)
+
+
+## Stack API Project
+
+The Stack API project contains the following functions along with its respective unit tests written using JEST.
+
+- push
+- pop
+- top
+- isEmpty
+- print
+
+![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/d37413fc-e33c-47fc-acc0-89561232a217)
