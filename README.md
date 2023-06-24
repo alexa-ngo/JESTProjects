@@ -9,4 +9,4 @@ The calculator project contains the following functions along with its respectiv
 - multiply
 - divide
 
-![Alt text](image-2.png)
+![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/81b43f62-0792-4606-b964-db07ca0b7e73)
