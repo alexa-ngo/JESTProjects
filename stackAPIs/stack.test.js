@@ -56,7 +56,7 @@ it('returns not empty using the empty function.', () => {
     expect(isEmptyResult).toBe(false);
 })
 
-it('undefined if all the values are popped from the stack.', () => {
+it('returns undefined if all the values are popped from the stack.', () => {
     const stack = new Stack();
     stack.push(-2);
     stack.push(-4);
