@@ -1,4 +1,5 @@
-// The Node class contstructs each node for the linked list.
+// The Node class contstructs a node for the linked list.
+// Each node connects together using the ._next attritbute
 export class Node {
   constructor(value) {
     this._value = value;
