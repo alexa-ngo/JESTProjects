@@ -23,3 +23,17 @@ The Stack API project contains the following functions along with its respective
 - print
 
 ![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/d37413fc-e33c-47fc-acc0-89561232a217)
+
+
+## NodeList API Project 
+
+The nodeList API project contains the following functions along with its respective unit tests written using JEST.
+
+- add
+- contains
+- plainList
+- remove
+- reverse
+
+![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/fd1dbbfa-4607-47bc-bae3-c41ce19a37e2)
+
