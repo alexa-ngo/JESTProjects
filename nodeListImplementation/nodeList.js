@@ -1,5 +1,5 @@
-// The Node class contstructs a node for the linked list.
-// Each node connects together using the ._next attritbute
+// The Node class contstructs a node to be used in the linked list.
+// Each node connects together using the ._next attritbute.
 export class Node {
   constructor(value) {
     this._value = value;
@@ -19,9 +19,8 @@ export class Node {
   }
 }
 
-// The LinkedList class has a head that is set to null.
-// Nodes are added to the LinkedList.
-// The LinkedList class has the add, plainList, remove, contains, and reverse method.
+// The LinkedList class starts off with a head that is set to null.
+// The LinkedList class has the add, contains, plainlist, remove, and reverse methods.
 export class LinkedList {
   constructor(head = null) {
     this._head = head;
@@ -42,6 +41,19 @@ export class LinkedList {
     }
     temp.setNext(newNode);
     return temp;
+  }
+
+  // Returns a boolean if the value is found in the linked list.
+  contains(value) {
+    let temp = this._head;
+
+    while (temp !== null) {
+      if (temp.getValue() === value) {
+        return true;
+      }
+      temp = temp.getNext();
+    }
+    return false;
   }
 
   // Returns an array of the values of the linked list.
@@ -82,19 +94,6 @@ export class LinkedList {
       }
       return node1;
     }
-  }
-
-  // Returns a boolean if the value is found in the linked list.
-  contains(value) {
-    let temp = this._head;
-
-    while (temp !== null) {
-      if (temp.getValue() === value) {
-        return true;
-      }
-      temp = temp.getNext();
-    }
-    return false;
   }
 
   // Returns the reverse list of the linked list.
