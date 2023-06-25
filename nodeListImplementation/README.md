@@ -5,3 +5,5 @@ The nodeList API project contains the following functions along with its respect
 - plainList
 - remove
 - reverse
+
+![Alt text](image-1.png)

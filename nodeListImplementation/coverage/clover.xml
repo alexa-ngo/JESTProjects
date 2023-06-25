@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1687724347996" clover="3.2.0">
-  <project timestamp="1687724347997" name="All files">
+<coverage generated="1687728805410" clover="3.2.0">
+  <project timestamp="1687728805410" name="All files">
     <metrics statements="54" coveredstatements="54" conditionals="11" coveredconditionals="11" methods="10" coveredmethods="10" elements="75" coveredelements="75" complexity="0" loc="54" ncloc="54" packages="1" files="1" classes="1"/>
     <file name="nodeList.js" path="C:\Users\Alexa Ngo\Desktop\JESTProjects\nodeListImplementation\nodeList.js">
       <metrics statements="54" coveredstatements="54" conditionals="11" coveredconditionals="11" methods="10" coveredmethods="10"/>

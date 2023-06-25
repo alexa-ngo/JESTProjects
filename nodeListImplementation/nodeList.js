@@ -1,4 +1,4 @@
-// The Node class contstructs a node to be used in the linked list.
+// The Node class contstructs a node to be used in the linked list class.
 // Each node connects together using the ._next attritbute.
 export class Node {
   constructor(value) {
@@ -19,8 +19,10 @@ export class Node {
   }
 }
 
-// The LinkedList class starts off with a head that is set to null.
+// The LinkedList class starts off with a head that is initially set to null.
+// By using the add method, we can connect more nodes together.
 // The LinkedList class has the add, contains, plainlist, remove, and reverse methods.
+
 export class LinkedList {
   constructor(head = null) {
     this._head = head;
@@ -43,7 +45,8 @@ export class LinkedList {
     return temp;
   }
 
-  // Returns a boolean if the value is found in the linked list.
+  // Returns a boolean of true if the value is found in the linked list.
+  // If not, a boolean of false is returned.
   contains(value) {
     let temp = this._head;
 
@@ -57,7 +60,7 @@ export class LinkedList {
   }
 
   // Returns an array of the values of the linked list.
-  plainList(node1) {
+  toPlainList(node1) {
     let temp = node1;
     const result = [];
 

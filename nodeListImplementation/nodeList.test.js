@@ -4,7 +4,7 @@ it("adds a node to a list.", () => {
   const node = new Node(1);
   const list = new LinkedList(node);
 
-  const result = list.plainList(node);
+  const result = list.toPlainList(node);
 
   expect(result).toEqual([1]);
 });
@@ -14,7 +14,7 @@ it("adds a node to an empty linked list.", () => {
   const list = new LinkedList();
   list.add(node);
 
-  const result = list.plainList(node);
+  const result = list.toPlainList(node);
   expect(result).toEqual([1]);
 });
 
@@ -24,11 +24,11 @@ it("adds a new node to to a list.", () => {
   node1.setNext(node2);
 
   const list = new LinkedList(node1);
-  const result = list.plainList(node1);
+  const result = list.toPlainList(node1);
   expect(result).toEqual([1, 2]);
 
   list.add(3);
-  const result2 = list.plainList(node1);
+  const result2 = list.toPlainList(node1);
   expect(result2).toEqual([1, 2, 3]);
 });
 
@@ -44,7 +44,7 @@ it("adds five random integers to a list.", () => {
   node4.setNext(node5);
 
   const list = new LinkedList(node1);
-  const result = list.plainList(node1);
+  const result = list.toPlainList(node1);
   expect(result).toEqual([-4, 9, 11, -2, 11]);
 });
 
@@ -60,7 +60,7 @@ it("adds five random strings and integers to a list.", () => {
   node4.setNext(node5);
 
   const list = new LinkedList(node1);
-  const result = list.plainList(node1);
+  const result = list.toPlainList(node1);
   expect(result).toEqual(["hi", "everyone", 3, -2, "day"]);
 });
 
@@ -77,7 +77,7 @@ it("removes the first value. If the number is not found, the original list is re
 
   const list = new LinkedList(node1);
   const resultAfterRemove = list.remove(1);
-  const result2 = list.plainList(resultAfterRemove);
+  const result2 = list.toPlainList(resultAfterRemove);
   expect(result2).toEqual([2, 3, 4, 5]);
 });
 
@@ -94,7 +94,7 @@ it("removes the second value.", () => {
 
   const list = new LinkedList(node1);
   list.remove(2);
-  const result = list.plainList(node1);
+  const result = list.toPlainList(node1);
   expect(result).toEqual([1, 3, 4, 5]);
 });
 
@@ -111,7 +111,7 @@ it("removes an a value that does not exist. The original list is returned.", () 
 
   const list = new LinkedList(node1);
   list.remove(9);
-  const result = list.plainList(node1);
+  const result = list.toPlainList(node1);
   expect(result).toEqual([1, 2, 3, 4, 5]);
 });
 
@@ -128,7 +128,7 @@ it("removes the 4th node of the linked list containing 5 nodes.", () => {
 
   const list = new LinkedList(node1);
   list.remove(4);
-  const result2 = list.plainList(node1);
+  const result2 = list.toPlainList(node1);
   expect(result2).toEqual([1, 2, 3, 5]);
 });
 
@@ -145,7 +145,7 @@ it("removes the 5th node of the linked list containing 5 nodes.", () => {
 
   const list = new LinkedList(node1);
   list.remove(5);
-  const result2 = list.plainList(node1);
+  const result2 = list.toPlainList(node1);
   expect(result2).toEqual([1, 2, 3, 4]);
 });
 
