@@ -42,7 +42,7 @@ The nodeList API project contains the following methods along with its respectiv
 
 The queue API project contains the following methods along with its respective unit tests written using JEST.
 
-- enqueue: pushs a value into the queue
+- enqueue: pushes a value into the queue
 - dequeue: removes the first value from the queue
 - firstValueInQueue: returns the first value in the queue
 - lastValueInQueue: returns the last value in the queue
