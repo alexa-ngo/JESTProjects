@@ -5,15 +5,14 @@ it("adds a node to a list.", () => {
   const list = new LinkedList(node);
 
   const result = list.toPlainList(node);
-
   expect(result).toEqual([1]);
 });
 
 it("adds a node to an empty linked list.", () => {
   const node = new Node(1);
   const list = new LinkedList();
-  list.add(node);
 
+  list.add(node);
   const result = list.toPlainList(node);
   expect(result).toEqual([1]);
 });
@@ -22,11 +21,10 @@ it("adds a new node to to a list.", () => {
   const node1 = new Node(1);
   const node2 = new Node(2);
   node1.setNext(node2);
-
   const list = new LinkedList(node1);
+
   const result = list.toPlainList(node1);
   expect(result).toEqual([1, 2]);
-
   list.add(3);
   const result2 = list.toPlainList(node1);
   expect(result2).toEqual([1, 2, 3]);

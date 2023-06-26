@@ -19,9 +19,9 @@ export class Node {
   }
 }
 
-// The LinkedList class starts off with a head that is initially set to null.
-// By using the add method, we can connect more nodes together.
-// The LinkedList class has the add, contains, plainlist, remove, and reverse methods.
+// The LinkedList class starts off with a head initialized as null.
+// By using the add method, we can connect each node together.
+// The LinkedList class has the add, contains, toPlainlist, remove, and reverse methods.
 
 export class LinkedList {
   constructor(head = null) {
