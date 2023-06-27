@@ -1,3 +1,17 @@
+# The Stacked Linked List Project
+
+The Stack class uses nodes to implement the following methods:
+
+- push: pushes a node to the Stack and sets the next node.
+- pop: pops a node from the Stack.
+- isTop: returns the value of the top of the Stack.
+- isEmpty: returns a boolean of whether the Stack is empty.
+- toString: returns a string of all the values in the Stack.
+
+![Alt text](image.png)
+
+---
+
 # Postmortem #6 - stackedLinkedList Project
 
 I made the Stacked Linked List mini project more complicated than it should have been!
