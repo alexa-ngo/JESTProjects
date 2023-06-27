@@ -96,7 +96,7 @@ it("removes the second value.", () => {
   expect(result).toEqual([1, 3, 4, 5]);
 });
 
-it("removes an a value that does not exist. The original list is returned.", () => {
+it("removes a value that does not exist. The original list is returned.", () => {
   const node1 = new Node(1);
   const node2 = new Node(2);
   const node3 = new Node(3);
