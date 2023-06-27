@@ -51,4 +51,16 @@ The queue API project contains the following methods along with its respective u
 
 ![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/f9e3fbf0-64b2-48cb-8b75-797f7730f7dc)
 
+# stackedLinkedList Project
+
+The Stack class uses nodes to implement the following methods:
+
+- push: pushes a node to the Stack and sets the next node.
+- pop: pops a node from the Stack.
+- isTop: returns the value of the top of the Stack.
+- isEmpty: returns a boolean of whether the Stack is empty.
+- toString: returns a string of all the values in the Stack.
+
+![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/866a0449-631b-4e2f-b03c-933c8590d934)
+
 
