@@ -24,8 +24,8 @@ export default class Stack {
     return false;
   }
 
-
   print(){
     return `The values in the stack are: ${this.items}`;
   }
 }
+

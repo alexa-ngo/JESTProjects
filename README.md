@@ -2,7 +2,7 @@
 
 This folder contains a collection of mini projects along with its unit tests written using JEST.
 
-## Calculator Project
+## The Calculator Project
 
 The Calculator project contains the following methods:
 
@@ -14,7 +14,7 @@ The Calculator project contains the following methods:
 ![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/81b43f62-0792-4606-b964-db07ca0b7e73)
 
 
-## Stack API Project
+## The Stack API Project
 
 The Stack API project contains the following methods:
 
@@ -27,7 +27,7 @@ The Stack API project contains the following methods:
 ![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/d37413fc-e33c-47fc-acc0-89561232a217)
 
 
-## NodeList API Project 
+## The NodeList API Project 
 
 The nodeList API project contains the following methods:
 
@@ -40,7 +40,7 @@ The nodeList API project contains the following methods:
 ![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/fd1dbbfa-4607-47bc-bae3-c41ce19a37e2)
 
 
-## queue API Project
+## The Queue API Project
 
 The queue API project contains the following methods:
 
@@ -53,7 +53,7 @@ The queue API project contains the following methods:
 
 ![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/f9e3fbf0-64b2-48cb-8b75-797f7730f7dc)
 
-## stackedLinkedList API Project
+## The Stacked Linked List API Project
 
 The Stacked Linked List API project uses nodes to implement the following methods:
 
@@ -66,3 +66,15 @@ The Stacked Linked List API project uses nodes to implement the following method
 ![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/866a0449-631b-4e2f-b03c-933c8590d934)
 
 
+# The Queue Linked List Project
+
+The Queue Linked List API project implements a linked list queue API. The Queue class uses a linked list of nodes to implement the following methods:
+
+- enqueue: adds a node to the end of the queue.
+- dequeue: removes a node from the front of the queue.
+- firstValueInQueue: returns the first value in the queue.
+- lastValueInQueue: returns the last value in the queue.
+- isEmpty: returns a boolean if the queue is empty.
+- toString: returns a string of the values in the queue.
+
+![Alt text](image.png)

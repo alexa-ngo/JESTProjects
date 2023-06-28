@@ -81,7 +81,6 @@ it('prints the items in the array.', () => {
     expect(isPrintResult).toEqual("The values in the stack are: 1,2,3");
 })
 
-
 it('prints "" if the array is empty.', () => {
     const stack = new Stack();
     stack.push(1);

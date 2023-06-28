@@ -1,3 +1,4 @@
+// Makes a Node to be used in the Stack class
 export class Node {
   constructor(value) {
     this._value = value;
@@ -17,6 +18,12 @@ export class Node {
   }
 }
 
+// The Stack class uses nodes to implement the following methods:
+// push: pushes a node to the Stack and sets the next node.
+// pop: pops a node from the Stack.
+// isTop: returns the value of the top of the Stack.
+// isEmpty: returns a boolean of whether the Stack is empty.
+// toString: returns a string of all the values in the Stack.
 export class Stack {
   constructor(head = null) {
     this._head = head;
