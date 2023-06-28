@@ -1,9 +1,11 @@
 # JEST Collection of Projects
 
-This folder contains a collection of mini projects along with its unit tests. 
+This folder contains a collection of mini projects along with its unit tests written using JEST.
 
 ## Calculator Project
-The calculator project contains the following methods along with its respective unit tests written using JEST.
+
+The Calculator project contains the following methods:
+
 - add
 - subtract
 - multiply
@@ -14,7 +16,7 @@ The calculator project contains the following methods along with its respective 
 
 ## Stack API Project
 
-The Stack API project contains the following methods along with its respective unit tests written using JEST.
+The Stack API project contains the following methods:
 
 - push
 - pop
@@ -27,7 +29,7 @@ The Stack API project contains the following methods along with its respective u
 
 ## NodeList API Project 
 
-The nodeList API project contains the following methods along with its respective unit tests written using JEST.
+The nodeList API project contains the following methods:
 
 - add
 - contains
@@ -40,7 +42,7 @@ The nodeList API project contains the following methods along with its respectiv
 
 ## queue API Project
 
-The queue API project contains the following methods along with its respective unit tests written using JEST.
+The queue API project contains the following methods:
 
 - enqueue: pushes a value into the queue
 - dequeue: removes the first value from the queue
@@ -51,9 +53,9 @@ The queue API project contains the following methods along with its respective u
 
 ![image](https://github.com/alexa-ngo/JESTProjects/assets/97919335/f9e3fbf0-64b2-48cb-8b75-797f7730f7dc)
 
-# stackedLinkedList Project
+## stackedLinkedList API Project
 
-The Stack class uses nodes to implement the following methods:
+The Stacked Linked List API project uses nodes to implement the following methods:
 
 - push: pushes a node to the Stack and sets the next node.
 - pop: pops a node from the Stack.
