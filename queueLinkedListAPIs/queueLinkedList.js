@@ -1,3 +1,7 @@
+// The Node class constructs a node using the value input by the user.
+// There is the value property and the next property.
+// The next property points to the following node.
+
 export class Node {
   constructor(value) {
     this._value = value;
@@ -16,6 +20,14 @@ export class Node {
     return this._value;
   }
 }
+
+// The Queue class implements a linked list API.
+// enqueue: adds a node to the end of the queue.
+// dequeue: removes a node from the front of the queue.
+// firstValueInQueue: returns the first value in the queue.
+// lastValueInQueue: returns the last value in the queue.
+// isEmpty: returns a boolean if the queue is empty.
+// toString: returns a string of the values in the queue.
 
 export class Queue {
   constructor(head = null) {
